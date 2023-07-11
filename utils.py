@@ -3,7 +3,7 @@ import time
 
 
 def main():
-  wile True:
+  while True:
     req = requests.get()
     print(req.json)
     time.sleep(15)
